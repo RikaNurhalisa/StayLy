@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_secprimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StayLy
+"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/my_primary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Praktis Bersama StayLy"
+            android:textSize="17sp"
+            android:textColor="#7A5F5F5F"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Form Login Box -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/my_primary"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:background="@drawable/input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#666666"
+            android:textColor="@color/my_primary"/>
+
+        <!-- Username -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@drawable/input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#666666"
+            android:textColor="@color/my_primary"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#666666"
+            android:textColor="@color/my_primary"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/input"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColorHint="#666666"
+            android:textColor="@color/my_primary"/>
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:background="@drawable/input"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:textColorHint="#666666"
+            android:textColor="@color/my_primary"/>
+
+        <!-- Tombol Daftar -->
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/my_primary"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
